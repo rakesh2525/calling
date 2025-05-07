@@ -28,3 +28,5 @@ jobs:
      uses: rakesh2525/Practice/.github/workflows/blank.yml@main
      with:
        start: ${{ github.event.inputs.start }}
+       end: ${{ github.event.inputs.end }}
+       dc: ${{ github.event.inputs.dc }}
